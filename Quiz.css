@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: "Cedarville Cursive", cursive;
+}
+body{
+  background-color: #f5e0f2;
+  background-image: url("/FrontEnd/IMAGES/Adiction2.webp");
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.quiz-container{
+  background-color: #c0e6d564;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(209, 197, 197, 0.274);
+  width: 60%;
+  overflow: hidden;
+}
+.quiz-header{
+  padding: 4rem;
+}
+h2{
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+ul li{
+  font-size: 17px;
+  margin:7px;
+    padding: 13px;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(246, 236, 236, 0.947);
+}
+ul li label{
+  cursor: pointer;
+  margin: 0;
+}
+button{
+  background-color: #d8ace3;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+button:hover{
+  background-color: #9ab9e7;
+}
+button:focus{
+  outline: none;
+  background-color: #a5efe9;
+}
+.heading{
+  font-size:xx-large;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(17, 16, 16);
+  background-color: rgba(243, 239, 239, 0.63);
+  border: none;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
